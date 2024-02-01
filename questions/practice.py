@@ -1,15 +1,49 @@
+"""
+traingle sidha h --> i wala loop +ve
+triangle ulta h --> i wala loop -ve
+
+pattern sidha h --> j loop +ve chalega
+pattern ulta h --> j loop -ve chalega
+
+pattern has same numbers --> print(i) e.g 1 22 333 4444
+pattern has sequential numbers -> print(j) eg. 1 12 123 1234
+"""
+
+"""
+1
+22
+333
+4444
+55555
+"""
+
 # for i in range(1, 6):
-#     for j in range(1, i+1):
+#     for j in range(1, i + 1):
 #         print(i, end=" ")
 #     print()
 
-# for i in range(1, 6):
-#     for j in range(5, i-1, -1):
-#         print(i, end=" ")
+"""
+11111
+2222
+333
+44
+5
+"""
+# num = 1
+# for i in range(5, 0, -1):
+#     for j in range(i, 0, -1):
+#         print(num, end=" ")
 #     print()
+#     num += 1
 
-# rows = 5
-# for i in range(1, rows + 1):
+"""
+1
+12
+123
+1234
+12345
+"""
+# for i in range(1, 6):
 #     for j in range(1, i+1):
 #         print(j, end=" ")
 #     print()
@@ -20,9 +54,7 @@
 333
 22
 1
-
 """
-
 # for i in range(5, 0, -1):
 #     for j in range(1, i+1):
 #         print(i, end=" ")
@@ -35,9 +67,8 @@
 55
 5
 """
-
-# for i in range(5, 0, -1):
-#     for j in range(i):
+# for i in range(5,0,-1):
+#     for j in range(1 , i+1):
 #         print(5, end=" ")
 #     print()
 
@@ -48,7 +79,6 @@
 4321
 54321
 """
-
 # for i in range(1, 6):
 #     for j in range(i, 0, -1):
 #         print(j, end=" ")
@@ -61,9 +91,8 @@
 012
 01
 """
-
-# for i in range(6, 1, -1):
-#     for j in range(i):
+# for i in range(5, 0, -1):
+#     for j in range(0, i+1):
 #         print(j, end=" ")
 #     print()
 
@@ -72,12 +101,23 @@
 234
 56789
 """
-currentNumber = 1
-stop = 2
-rows = 3 # Rows you want in your pattern
-for i in range(rows):
-    for j in range(1, stop):
-        print(currentNumber, end=' ')
-        currentNumber += 1
-    print("")
-    stop += 2
+# 2n- 1
+
+# end_num = 1
+
+# for i in range(1, 4):
+#     for j in range(1, 2*i):
+#         print(end_num, end=" ")
+#         end_num += 1
+#     print()
+
+
+"""
+1
+
+3 2
+
+6 5 4
+
+10 9 8 7
+"""
